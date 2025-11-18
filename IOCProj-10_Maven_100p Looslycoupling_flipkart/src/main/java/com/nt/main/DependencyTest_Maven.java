@@ -19,6 +19,7 @@ public class DependencyTest_Maven
 			FlipCart fkpk=ctx.getBean("flip",FlipCart.class);
 			String msg=fkpk.shopping(new String[] {"shirts"}, new double[] {1000});
 			System.out.println(msg);
+			System.out.println("hiii");
 			
 			
 		}
